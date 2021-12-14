@@ -1,0 +1,436 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header{
+    background-color:#EFCF91;
+    height:10em;
+    margin-bottom:5em;
+}
+
+ul{
+    margin: 0;
+    padding: 10px;
+    display:flex;
+    justify-content: end;
+}
+
+li{
+    list-style: none;
+}
+
+.home_tag{
+    width:10%;
+}
+
+.inscription_connexion{
+    margin:0 5px;
+}
+
+a{
+    color:rgb(59, 59, 59);
+    text-decoration:none;
+}
+
+a:hover{
+    color:rgb(133, 133, 133);
+}
+
+/*Header user_connect*/
+.connect_profil{
+    margin:0 30px;
+}
+
+/*Register*//*Login*/
+h2{
+    margin-left: 10%;
+}
+
+/* Body */
+.container{
+    display:flex;
+    justify-content:space-around;
+    width:90%;
+    margin:0 auto;
+    flex-wrap:wrap;
+}
+
+.card{
+    width:17%;
+    margin: 40px 5%;
+    background-color:rgb(228, 228, 228);
+    padding:15px;
+}
+
+h3{
+    margin-top:10px;
+}
+
+/*Inscription*/
+.main {
+    text-align: center;
+}
+
+.inscription_user{
+    margin:150px auto;
+    width:25%;
+}
+
+h1{
+    text-align:center;
+}
+
+.inscription_user input{
+    border:1px solid white;
+    background-color:#E0E0E0;
+    border-radius:5px;
+}
+
+.inscri_civil{
+    margin-left:80px;
+}
+
+.inscri_nom{
+    margin-left:90px;
+}
+
+.inscri_prenom{
+    margin-left:71px;
+}
+
+.inscri_email{
+    margin-left:90px;
+}
+
+.inscri_pass{
+    margin-left:33px;
+}
+
+.inscri_nom, .inscri_prenom, .inscri_email, .inscri_pass{
+    width:60%;
+}
+
+.inscription_user a{
+    text-decoration:none;
+}
+
+#btn_inscription_user{
+    position:relative;
+    left:81%;
+    margin: 20px 0;
+    background-color:rgb(204, 146, 146);
+    border:1px solid rgb(204, 146, 146);
+    border-radius:5px;
+}
+
+.deja_inscrit{
+    text-align:center;
+}   
+
+#connect_user{
+    color:#C8A157;
+}
+
+/*Connexion*/
+.connect_user{
+    margin:150px auto;
+    width:25%;
+}
+
+h1{
+    text-align:center;
+}
+
+.connect_user input{
+    border:1px solid white;
+    background-color:#E0E0E0;
+    border-radius:5px;
+    width:60%;
+}
+
+.connect_email{
+    margin-left:90px;
+}
+
+.connect_pass{
+    margin-left:33px;
+}
+
+#btn_connect_user{
+    position:relative;
+    left:78%;
+    margin: 20px 0;
+    background-color:rgb(204, 146, 146);
+    border:1px solid rgb(204, 146, 146);
+    border-radius:5px;
+}
+
+.connect_user a{
+    text-decoration:none;
+}
+
+.pas_inscrit{
+    text-align:center;
+}   
+
+#inscri_user{
+    color:#C8A157;
+}
+
+/*Profil*/
+.profil-container{
+    display:flex;
+    justify-content:space-between;
+    width:64%;
+    margin-left:10%;
+    line-height:70px;
+    font-size:21px;
+}
+
+#span-profil{
+    font-size:35px;
+    font-weight:500;
+}
+
+.profil-bas{
+    display:flex;
+    justify-content:space-between;
+    width:68%;
+    margin-left:10%;
+    font-size:21px;
+    line-height:70px;
+}
+
+/*Espace Administrateur*/
+.profil-admin-container{
+    margin-left:5%;
+}
+
+.list-container{
+    margin-bottom:10%;
+}
+
+.tags-quiz-question{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.flex-list{
+        display:flex;
+        margin: 0 70px;
+}
+
+.flex-list img:last-child {
+    margin-top: 11px;
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+    opacity: 0.7;
+}
+
+.deletelist{
+    height:53.6px;
+}
+
+.profil p:first-child{
+    margin-left:5px;
+}
+
+.ajout{
+    margin: 20px 65px;
+}
+
+/*Modifications admin*/
+.titre{
+    font-size:22px;
+}
+
+.nbreprojet{
+    text-align:center;
+    font-size:18px;
+    margin-bottom:50px;
+    margin-top:70px;
+}
+
+.modif{
+    margin:150px 0;
+}
+
+#content-modif{
+    width:35%;
+    margin:auto;
+    margin-top:110px;
+}
+
+#content-modif p{
+    margin-left:20px;
+}
+
+#content-modif input{
+    margin-left:10px;
+    width:70%;
+    border:1px solid white;
+    background-color:#E0E0E0;
+    border-radius:5px;
+}
+
+#btn_modif{
+    margin-top: 20px;
+    margin-left: 84%;
+}
+
+/*Ajouter questions*/
+.select-quiz{
+    margin:0 auto;
+    width: 13%;
+    margin-top:80px;
+}
+
+#content-ajout{
+    width:35%;
+    margin:auto;
+    margin-top:50px;
+}
+
+#content-ajout p{
+    margin-left:20px;
+}
+
+#ajout-question{
+    margin: 0 0 30px 10px;
+    width:65%;
+    border:1px solid white;
+    background-color:#E0E0E0;
+    border-radius:5px;
+}
+
+
+#ajout-reponse input{
+    width:30%;
+    border:1px solid rgb(194, 194, 194);
+    border-radius:5px;
+}
+
+/*Question level*/
+.level-container{
+    display:flex;
+}
+
+.question-level{
+    width:70%;
+    height: 13em;
+    margin-top:47px;
+}
+
+.question-level p{
+    width:30%;
+}
+
+.level{
+    display:flex;
+    flex-wrap:wrap;
+    width:100%;
+}
+
+.span-level{
+    font-size:17px;
+    font-weight:500;
+}
+
+#btn_question_level{
+    position:relative;
+    left:75%;
+    margin: 20px 0;
+    padding: 7px 11px;
+    background-color:rgb(204, 146, 146);
+    border:1px solid rgb(204, 146, 146);
+    border-radius:5px;
+    width:15%;
+}
+
+/*Question quiz*/
+.title-quiz{
+    margin-left:5%;
+}
+
+.title-quiz p{
+    position:relative;
+    top:-15px;
+}
+
+.container-quiz{
+    margin:0 35%;
+    width:40%;
+}
+
+#infos-quiz{
+    display:flex;
+}
+
+#infos-quiz p:first-child{
+    font-weight:500;
+}
+
+#info-level-question-quiz{
+    position:relative;
+    left:75%;
+}
+
+#btn_question_quiz_next{
+    position:relative;
+    left:75%;
+    margin: 20px 0;
+    padding: 4px 0;
+    background-color:rgb(204, 146, 146);
+    border:1px solid rgb(204, 146, 146);
+    border-radius:5px;
+    width:25%;
+}
+
+/*Footer*/
+footer {
+    bottom: 0;
+    padding: 25px;
+    background-color: #EFCF91;
+    margin-top:5em;
+}
+
+.footer_nav {
+    display: flex;
+    justify-content:space-around;
+}
+
+.footer_nav > div {
+    margin: 0 50px;
+}
+
+.footer_nav > div a:hover{
+    color:rgb(133, 133, 133);
+}
+
+.footer_nav .links1 a {
+    display: block;
+    text-decoration: none;
+    color:rgb(49, 49, 49);
+}
+
+.footer_nav .links2 a {
+    display: block;
+    text-decoration: none;
+    color:rgb(49, 49, 49);
+}
+
+.social {
+    display: flex;
+}
+
+.social a {
+    margin: 0 5px;
+}
+
+.social img{
+    width:50px;
+    height:50px;
+}
